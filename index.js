@@ -2,6 +2,6 @@ const express = require("express");
 const app = express();
 const port = 5000;
 app.get("/", (req, res) => {
-  res.send("Let explor mongoDB with ph level 2 web course ");
+  res.send("Let explor mongoDB with ph level 2 web course , to fly of your carrear");
 });
 app.listen(port);
